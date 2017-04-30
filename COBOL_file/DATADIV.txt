@@ -1,0 +1,45 @@
+      
+      *------------------------------------------------
+      *            TABLE FOR DAY OF WEEK
+      *-------------------------------------------------
+       01 DAY-NAME-VALUES.
+           05  FILLER      PIC X(9)    VALUE "MONDAY".
+           05  FILLER      PIC X(9)    VALUE "TUESDAY".
+           05  FILLER      PIC X(9)    VALUE "WEDNESDAY".
+           05  FILLER      PIC X(9)    VALUE "THURSDAY".
+           05  FILLER      PIC X(9)    VALUE "FRIDAY".
+           05  FILLER      PIC X(9)    VALUE "SATURDAY".
+           05  FILLER      PIC X(9)    VALUE "SUNDAY".
+       01 DATE-NAME-RED REDEFINES DAY-NAME-VALUES.
+           05 DAY-NAME-TABLE OCCURS 7 TIMES   PIC X(9).
+       01  DAY-NUMBER     PIC 9(1).
+      *------------------------------------------------
+      *            TABLE FOR DAY OF MONTH
+      *-------------------------------------------------
+       01 DATE-NAME-VALUES.
+           05  FILLER      PIC X(9)    VALUE "JANUARY".
+           05  FILLER      PIC X(9)    VALUE "FEBRUARY".
+           05  FILLER      PIC X(9)    VALUE "MARCH".
+           05  FILLER      PIC X(9)    VALUE "APRIL".
+           05  FILLER      PIC X(9)    VALUE "MAY".
+           05  FILLER      PIC X(9)    VALUE "JUNE".
+           05  FILLER      PIC X(9)    VALUE "JULY".
+           05  FILLER      PIC X(9)    VALUE "AUGUST".
+           05  FILLER      PIC X(9)    VALUE "SEPTEMBER".
+           05  FILLER      PIC X(9)    VALUE "OCTOBER".
+           05  FILLER      PIC X(9)    VALUE "NOVEMBER".
+           05  FILLER      PIC X(9)    VALUE "DECEMBER".
+       01 DATE-NAME-RED REDEFINES DATE-NAME-VALUES.
+           05 DATE-NAME-TABLE OCCURS 12 TIMES   PIC X(9).
+       01 DATE-NUMBER-IN.
+           05 YEAR-NUMBER  PIC 9(2).
+           05 MONTH-NUMBER  PIC 9(2).
+           05 DATE-NUMBER  PIC 9(2).
+      *------------------------------------------------
+      *            TABLE FOR COURSES
+      *-------------------------------------------------
+       01  COURSE-DETAIL-TABLE.
+           05 COURSE-TABLE     OCCURS  11  TIMES.
+               10  COURSE-NUMBER           PIC X(7).
+               10  COURSE-NAME             PIC X(9).
+       01  SUB-COURSE      PIC 9(2).

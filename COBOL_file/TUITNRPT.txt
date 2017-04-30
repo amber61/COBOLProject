@@ -1,0 +1,4 @@
+                    STUDENT OWING TUITION           MONDAY    APRIL     11 16
+    STUDENT LAST NAME     STUDENT FIRST NAME     STUDENT NUMBER     AMOUNT OWING
+    Herbert               Jerome                123568900  $2,000.50
+    Robinson              Spider                123699900  $4,000.90
