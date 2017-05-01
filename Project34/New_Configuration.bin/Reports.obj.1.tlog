@@ -1,0 +1,4 @@
+#"C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe" G:\COBOLworkspace\Project34\Reports.cbl "INTG:\COBOLworkspace\Project34\New_Configuration.bin"" DELINT OBJG:\COBOLworkspace\Project34\New_Configuration.bin""" USEG:\COBOLworkspace\Project34\New_Configuration.bin\mfant5026465256549777242.dir ;
+^G:\COBOLworkspace\Project34\Reports.cbl
+!"G:\COBOL File\DATADIV.txt"
++"G:\COBOL File\DATADIV.txt"
